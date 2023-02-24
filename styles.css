@@ -1,0 +1,148 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+ height: 20px;
+ background-color: black;
+}
+
+#hero{
+ background-image: url('7854057_1014.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 60vh;
+}
+
+#hero-text{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ min-height: 100vh;
+}
+
+#hero-text h1{
+ font-size: 3rem;
+ text-align: center;
+ color: white;
+}
+
+#hero-text p{
+ font-size: 2rem;
+ color: white;
+ text-align: center;
+ margin-bottom: 2rem;
+}
+
+#about-us{
+ min-height: 100vh;
+ padding: 2rem;
+}
+
+#about-us h1{
+ text-align: center;
+ font-size: 2rem;
+ line-height: 2;
+ margin-top: 20px;
+}
+
+#about-us p{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ font-size: 1.125rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ line-height: 2;
+ margin-top: 20px;
+}
+
+#my-work{
+ text-align: center;
+}
+
+#my-work h1{
+ font-size: 36px;
+}
+
+
+.image{
+ width: 300px;
+}
+
+.project-card{
+    background-color: white;
+
+    /* Add border */
+    border: 1px solid #eaeaea;
+    
+    /* Add space between the border and the content */
+    
+    border-radius: 12px;
+    text-align: center;
+    
+    margin: 40px;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-card p{
+ line-height: 2;
+ margin-top: 20px;
+}
+
+.project-card h4{
+ margin-top: 10px;
+}
+
+.buttons{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ flex-direction: row;
+ margin: 10px 10px 10px 10px;
+}
+
+
+@media(min-width: 500px){
+ #about-us p{
+ padding-right: 2rem;
+ font-size: 1.175rem;
+ }
+
+}
+
+
+
+
+@media(min-width: 1200px){
+ #about-us{
+ margin: auto;
+ max-width: 1024px;
+ min-height: 60vh;
+ }
+
+ #about-us p{
+ font-size: 1.125rem;
+line-height: 2; 
+}
+
+.project-card{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 800px;
+}
+}
